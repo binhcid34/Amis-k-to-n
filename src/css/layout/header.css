@@ -1,0 +1,346 @@
+
+.icon-three-stripes{
+    background: url('../../assets/img/Sprites.64af8f61.svg') no-repeat -843px -30px;
+    width: 24px;
+    height: 24px;
+    min-width: 24px;
+    min-height: 24px;
+    margin-right: 5px;
+    margin-left: 10px;
+}
+
+.header-dashboard{
+    display: flex;
+    align-items: center;
+    flex-basis: 48px !important ;
+}
+.header-branch{
+    padding-left: 10px;
+    font-family: Misa Font Bold;
+    font-size: 13px;
+}
+.header-down{
+    
+}
+.icon-down{
+    background: url('../../assets/img/Sprites.64af8f61.svg') no-repeat -80px -360px;
+    width: 14px;
+    height: 14px;
+
+    transform: rotate(90deg);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.header-tooltip{
+    display: flex;
+    border: 1px solid #ebedf0;
+    border-radius: 40px;
+    margin-left: 0px;
+    cursor: pointer;
+    height: 30px;
+    margin-right: 10px;
+    padding: 0 12px;
+    align-items: center;
+}
+.header-point{
+    width: 6px;
+    height: 6px;
+    background-color: #4ea344;
+    border-radius: 50%;
+    border: 1px solid #fff;
+}
+.header-place{
+    padding-left: 5px;
+    width: fit-content;
+}
+
+.header-space{
+    flex-shrink: 2;
+    width: 250px;
+}
+
+.icon-download{
+    background: url('../../assets/img/Sprites.64af8f61.svg') no-repeat -1378px -89px;
+    width: 24px;
+    height: 24px;
+    min-width: 24px;
+    min-height: 24px;
+    cursor: pointer;
+}
+.header-icon-dowload{
+    padding-right: 10px;
+    padding-left: 10px; 
+    margin-right: 22px;
+}
+.icon-download:active{
+    background-position: -1378px -145px;
+}
+.header-input{
+    border: 1px solid #ebedf0;
+    margin-right: 15px;
+    box-sizing: border-box;
+}
+.input-search{
+    position: relative;
+}
+
+
+.input-search-content{
+    font-family: Misa Font Italic;
+    font-size: 12px;
+    width: 180px;
+    height: 32px;
+    box-sizing: border-box;
+    opacity: .8;
+    padding-left: 8px;
+}
+.input-search-content:focus-visible{
+    outline: none;
+    border: 1px solid #2ca01c;
+}
+.icon-search{
+    background: url('../../assets/img/Sprites.64af8f61.svg') no-repeat;
+    width: 24px;
+    height: 24px;
+    min-width: 24px;
+    min-height: 24px;
+    cursor: pointer;
+    background-position: -992px -360px;
+}
+.icon-search{
+    position: absolute;
+    top:8px;
+    left: 160px;
+
+}
+
+/* header button*/
+/* chứa các nút chức năng trợ giúp của header */
+.header-button{
+    display: flex;
+    margin-left: 12px;
+}
+
+.header-button-text{
+    width: 44px ;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon-header{
+    background: url('../../assets/img/Sprites.64af8f61.svg') no-repeat;
+    width: 24px;
+    height: 24px;
+    min-width: 24px;
+    min-height: 24px;
+    cursor: pointer;
+}
+
+.header-button-text:hover{
+    background-color: #4ea344;
+    
+}
+
+.icon-text{
+    background-position: -568px -30px;
+}
+.icon-setting{
+    background-position: -675px -30px;
+}
+.icon-chatting{
+    background-position: -899px -30px;
+}
+
+.icon-help{
+    background-position: -731px -30px;
+    position: relative;
+}
+
+.icon-help-title{
+    background-color: #FF7F2C;
+    color: #ffffff;
+    font-size: 10px;
+    border-radius: 30px;
+    align-items: center;
+    padding-top: 2px;
+    width: 30px;
+    height: 16px;
+    position:absolute;
+    top: -10px;
+    right: -20px;
+
+    
+}
+.icon-help-title span{
+    padding-top: 4px;
+    padding-left: 6px;
+}
+.icon-info-reload{
+    background-position: -788px -30px;
+}
+
+.icon-bell{
+    background-position: -788px -30px;
+}
+.avata-header{
+    border: 1px solid #ebedf0;
+    border-radius: 50%;    
+    width: 32px;
+    height: 32px;
+    margin-left: 25px;
+}
+
+.avata-header img{
+    width:  32px;
+    height: 32px;
+}
+.header-right-icon{
+    margin-left: 8px;
+    padding: 0;
+    opacity: .6;
+    
+}
+.header-left-branch{
+    text-transform: uppercase;
+}
+
+/* content dashboard  */
+.content-dashboard{
+    padding-left: 20px;
+}
+
+.top-content-list{
+    display: flex;
+    padding-right: 20px;
+    padding-top: 24px;
+    justify-content: space-between;
+}
+
+.button-content{
+    display: flex;
+}
+
+.button-dropdown{
+    border: 2px solid #000;
+    border-radius: 30px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+  
+}
+
+.button-dropdown{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 12px;
+}
+.button-header-extension{
+    padding-left:16px ;
+    padding-right: 16px;
+    cursor: pointer;
+}
+
+.button-header-extension:hover{
+    background-color: rgba(59, 60, 63, .2);
+}
+.button-dropdown span{
+    font-weight: 600;
+}
+.icon-dropdown{
+    background: url('../../assets/img/Sprites.64af8f61.svg') no-repeat -560px -359px;;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+
+.icon-down-extension{
+    margin-left: 5px;
+}
+.button-header-add{
+    background-color: #2ca01c;
+    border: none;
+    cursor: pointer;
+}
+
+.button-header-add span{
+    color: #ffffff;
+    cursor: pointer;
+
+}
+
+.icon-dropdown-white{
+    background: url('../../assets/img/Sprites.64af8f61.svg') no-repeat ;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    background-position: -848px -359px;
+}
+
+.icon-down-add{
+    margin-left: 5px;
+}
+
+.button-header-add span{
+    padding-left: 4px;
+    padding-right: 16px;
+    font-weight: 600;
+    width: fit-content;
+    padding-left: 16px;
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+    height: 36px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    cursor: pointer;
+    width: 36px;
+
+}
+.line{
+    width: 1px;
+    height: 16px;
+    background-color: #ffffff;
+}
+
+.button-header-add span:hover{
+    background-color: #35bf22;
+}
+.button-header-add-drop{
+    height: 36px;
+    display: flex;
+    align-items: center;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+.button-header-add-drop:hover{
+    background-color: #35bf22;
+}
+
+.title1-content-list{
+    font-family: Misa Font Bold;
+    font-size: 24px;
+    font-weight: 700;
+    color: #111;
+}
+
+.top-content2-list{
+    justify-content: flex-start;
+    padding-top: 0px;
+}
+
+.icon-left{
+    background-position: -224px -360px;
+    width: 16px;
+    height: 16px;
+    min-width: 16px;
+    min-height: 16px;
+}
+.content2-title{
+    color:#0075C0;
+    cursor: pointer;
+}

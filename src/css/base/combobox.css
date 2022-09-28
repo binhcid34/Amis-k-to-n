@@ -1,0 +1,111 @@
+/* Department Dialog */
+
+.departmentForm {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 125px;
+    background-color: #ffffff;
+    width: 390px;
+    max-height: 200px !important;
+    border-collapse: collapse;
+    z-index: 150;
+    justify-content: left;
+    border: 1px solid #c9ccd2;
+    overflow-y: scroll;
+}
+
+.departmentForm tr {
+    width: 390px !important;
+    cursor: pointer;
+}
+
+.departmentForm th {
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: left;
+}
+
+.departmentForm tbody th {
+    font-weight: 400;
+}
+
+.departmentForm:hover {
+    background-color: #FFFFFF !important;
+}
+
+.departmentFormTitle,
+.departmentFormDetail {
+    height: 32px;
+}
+
+.departmentForm tbody tr:hover {
+    background-color: #cce4f9;
+
+}
+
+.departmentForm tbody tr:hover .departmentId,
+.departmentForm tbody tr:hover .departmentName {
+    color: #35BF22;
+    font-weight: 700;
+
+}
+
+.departmentName {
+    width: 290px;
+}
+
+.departmentId {
+    width: 100px;
+}
+
+.possitionForm {
+    top: 190px !important;
+    position: absolute;
+}
+
+.b-content-l1-t1 {
+    position: relative;
+}
+
+.form-control {
+  
+}
+
+.form-control:focus {
+    outline: none;
+    border: 1px solid #2ca01c;
+}
+
+
+.el-select .el-input__inner {
+    cursor: pointer;
+}
+
+.el-input__inner {
+    border: none !important;  
+}
+.el-input__wrapper{
+    height: 32px !important;
+    width: 390px !important;
+    font-size: 13px !important;
+    padding: 0 10px !important;
+    border-radius: 2px !important;
+    /* border: 1px solid #babec5 !important;  */
+    border-color: #babec5  !important;
+    box-sizing: border-box !important;
+}
+.el-input__wrapper:focus{
+    box-shadow: none !important;
+    outline: none !important;
+    border: 1px solid #2ca01c !important;
+}
+.el-input__wrapper:visited{
+    box-shadow: none !important;
+    outline: none !important;
+    border: 1px solid #2ca01c !important;
+}
+
+.el-input__prefix {
+    order: 2 !important;
+}

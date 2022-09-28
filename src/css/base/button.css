@@ -1,0 +1,71 @@
+.b-button{
+    background-color: #2ca01c;
+    border-radius: 5px;
+    height: 36px;
+    color: #fff;
+    padding-left: 16px;
+    padding-right: 16px;
+    text-align: center;
+    min-width: 100px ;
+    cursor: pointer;
+   box-sizing: border-box;
+   align-items: center;
+}
+.b-button:hover{
+    background-color: #35BF22;
+    border-left: none;
+}
+.b-button:active{
+    background-color: #35BF22;
+}
+.b-button-icon{   
+    height: 40px;  
+    text-align: left ;
+
+}
+.b-icon-text{
+    padding-left: 40px;
+}
+/* .b-icon-add{
+    background-image: url(../../assets/);
+    background-repeat: no-repeat;
+    background-position: 16px center;
+}
+.b-icon-saveandnew{
+    background-image: url(../../assets/icon/search.png);
+    background-repeat: no-repeat;
+    background-position: 16px center;
+} */
+
+.b-row{
+    margin: 15px 15px;
+}
+
+/* button 2icon */
+.b-button-2icon{
+    position: relative;
+    border-radius: 5px 0 0 5px;
+}
+/* .b-button-2icon-right{
+    position: absolute;
+    border-radius: 0 5px 5px 0;
+    background-image: url(../../assets/icon/radio-checked.png);
+    background-repeat: no-repeat;
+    background-position: 16px center;
+    min-width: 50px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-left: #ffffff 1px solid ;
+}
+
+.b-button-2icon-right:hover{
+    background-image: url(../../assets/icon/refresh.png);
+} */
+.button-add{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.button-add span{
+    font-weight: 600;
+}
